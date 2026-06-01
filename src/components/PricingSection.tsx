@@ -4,39 +4,38 @@ import { QuoteFormDialog } from "@/components/QuoteFormDialog"
 
 const pricingTiers = [
   {
-    name: "Базовый",
-    price: "99 900",
+    name: "Лендинг",
+    price: "39 900",
     features: [
-      "До 5 страниц",
+      "1 страница под ключ",
       "Адаптивный дизайн",
-      "Базовая SEO-оптимизация",
+      "Анимации и интерактив",
       "Форма обратной связи",
-      "1 месяц поддержки",
+      "Базовая SEO-оптимизация",
     ],
     highlighted: false,
   },
   {
-    name: "Про",
-    price: "249 900",
+    name: "Сайт",
+    price: "89 900",
     features: [
-      "До 15 страниц",
+      "До 10 страниц",
       "Премиум-дизайн",
       "Расширенная SEO-оптимизация",
       "Интеграция CMS",
-      "Функционал e-commerce",
       "3 месяца поддержки",
     ],
     highlighted: true,
   },
   {
-    name: "Индивидуальный",
-    price: "По запросу",
+    name: "Презентация",
+    price: "24 900",
     features: [
-      "Неограниченно страниц",
-      "Кастомный функционал",
-      "API-интеграции",
-      "Персональный менеджер",
-      "6 месяцев поддержки",
+      "До 20 слайдов",
+      "Уникальный дизайн",
+      "Анимации переходов",
+      "Инфографика и иконки",
+      "Правки в течение месяца",
     ],
     highlighted: false,
   },
@@ -63,7 +62,7 @@ export function PricingSection() {
             Выберите <span className="text-primary">идеальный тариф</span> для вашего проекта
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            От стартапов до крупного бизнеса — у нас есть подходящее решение
+            Прозрачные пакеты без скрытых платежей — выберите то, что нужно именно вам
           </p>
         </div>
 
@@ -121,8 +120,8 @@ export function PricingSection() {
 
         <div className="mt-12 text-center">
           <p className="text-sm text-muted-foreground">
-            Все тарифы включают <span className="text-primary font-semibold">бесплатную настройку хостинга</span> и{" "}
-            <span className="text-primary font-semibold">SSL-сертификат</span>
+            Все тарифы включают <span className="text-primary font-semibold">бесплатную консультацию</span> и{" "}
+            <span className="text-primary font-semibold">правки до полного согласования</span>
           </p>
         </div>
       </div>
